@@ -1,0 +1,17 @@
+∀ε>0
+{
+	∃x
+	"FACTORIAL OF: " → console
+	console → x
+	∃y = fact(x)
+	"RESULT: " → console
+	y → console
+}
+
+fact: x → ℝ
+{
+	(x <= 1) ⇒ 
+		→ 1;
+	⊥ ⇒
+		→ x * fact(x - 1);
+}

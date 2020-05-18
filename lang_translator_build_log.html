@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>lang_translator build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>17-05-2020 at 21:56.57</u><br />
+Build ended on: <u>17-05-2020 at 21:57.00</u><p />
+<b>-------------- Build: Debug in lang_translator (compiler: GNU GCC Compiler)---------------</b><br />
+mingw32-g++.exe -Wall -fexceptions  -g     -c C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp -o obj\Debug\prog_to_asm.o<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int work_with_code()':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:25:57: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]</font><br />
+     poem code = files_to_poem("output.txt", "output.bin");<br />
+                                                         ^<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:25:57: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]</font><br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:39:22: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]</font><br />
+     char *fin_name = "assm.txt", *fout_name = "output.bin";<br />
+                      ^<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:39:47: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]</font><br />
+     char *fin_name = "assm.txt", *fout_name = "output.bin";<br />
+                                               ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int tree_to_asm(tree_branch*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:56:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int recursive_asm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:93:49: warning: format '%s' expects argument of type 'char*', but argument 3 has type 'void*' [-Wformat=]</font><br />
+             fprintf(assm, "\"%s\"", branch-&gt;data);<br />
+                                                 ^<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:138:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int return_to_assm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:147:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int while_to_assm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:161:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int if_to_assm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:176:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int scan_to_assm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:184:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int print_to_assm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:190:60: warning: format '%s' expects argument of type 'char*', but argument 3 has type 'void*' [-Wformat=]</font><br />
+         fprintf(assm, "OUT \"%s\"\n", branch-&gt;next[0]-&gt;data);<br />
+                                                            ^<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:197:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int assign_to_assm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:205:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int variable_define_to_assm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:219:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int pow_to_assm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:232:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int math_to_assm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:238:10: warning: variable 'adding' set but not used [-Wunused-but-set-variable]</font><br />
+     bool adding = false;<br />
+          ^<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:271:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int func_call_to_assm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:282:48: warning: format '%s' expects argument of type 'char*', but argument 3 has type 'void*' [-Wformat=]</font><br />
+         fprintf(assm, "CALL %s\n", branch-&gt;data);<br />
+                                                ^<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:287:17: warning: statement has no effect [-Wunused-value]</font><br />
+         for (str; *str != 0; ++str)<br />
+                 ^<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:291:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int main_to_assm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:301:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int print_condition(char*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:351:1: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp: In function 'int func_define_to_assm(tree_branch*, FILE*)':<br />
+<font color="#0000ff">C:\Users\b0y\Documents\got\c\lang_translator\prog_to_asm.cpp:322:1: warning: control reaches end of non-void function [-Wreturn-type]</font><br />
+ }<br />
+ ^<br />
+mingw32-g++.exe  -o bin\Debug\lang_translator.exe obj\Debug\algebra.o obj\Debug\asm.o obj\Debug\code_parcer.o obj\Debug\cpu.o obj\Debug\derrivate_of_operators.o obj\Debug\main.o obj\Debug\matan.o obj\Debug\mti.o obj\Debug\parcer.o obj\Debug\prog_to_asm.o obj\Debug\stack.o obj\Debug\stringsort.o<br />
+Output size is 1,70 MB<br />
+<font color="#0000ff">Process terminated with status 0 (0 minutes, 2 seconds)</font><br />
+<font color="#0000ff">0 errors, 24 warnings (0 minutes, 2 seconds)</font><br />
+</tt>
+</body>
+</html>

@@ -1,0 +1,15 @@
+∀ε>0
+{
+	∃x
+	console → x
+	∃y = fact(x)
+	y → console
+}
+
+fact: x → ℝ
+{
+	(x <= 1) ⇒ 
+		→ 1;
+	⊥ ⇒
+		→ x * fact(x - 1);
+}

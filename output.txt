@@ -1,0 +1,55 @@
+main
+{
+	double a  =  0
+	double b  =  0
+	double c  =  0
+	print "PUSH A: " 
+	scan a
+	print "PUSH B: " 
+	scan b
+	print "PUSH C: " 
+	scan c
+	get_roots ( a b c ) 
+}
+
+get_roots:  ( a b c )   
+{
+	 ( a  ==  0 )   do: { 
+	 	 ( b  ==  0 )   do: { 
+	 		 ( c  ==  0 )   do: { 
+				print "INFINITY ROOTS\n"  } 
+	 		else  do: { 
+				print "NO ROOTS\n"  }  } 
+	 	else   do: { 
+			print "ONLY ROOT: " 
+			print  - c  /  b  }  } 
+	else   do: { 
+	 	 ( b * b - 4 * a * c  >  0 )   do: { 
+	 		double d  =  sqrt ( b  *  b  -  4  *  a  *  c ) 
+	 		double x  =   ( d  -  b )   /  2
+
+			print "2 ROOTS:\n" 
+			print x 
+	 		x  =   (  - b  -  d )   /  2
+			print " and " 
+			print x  } 
+	 	else   do: {  
+	 		 ( b * b - 4 * a * c  ==  0 )   do: {  
+				print "1 ROOT: \n" 
+				print  - b /  ( 2 * a )   } 
+			else   do: { 
+				print "NO ROOTS\n"  }  }  } 
+}
+
+SQRT: x 
+{
+	double i  =  0
+	double y  =  1
+	
+	while  ( i  <  100 )   do: { 
+		y  =   ( y  +  x  /  y )   /  2
+		i  =  i  +  1 } 
+
+	return  y
+}
+

@@ -1,0 +1,10 @@
+cin << count;
+int rat[count];
+for(int i = 0; i < count; ++i)
+{
+    cin << rat[i];
+}
+for(int i = 0; i < count; ++i)
+{
+    cin << rat[i];
+}

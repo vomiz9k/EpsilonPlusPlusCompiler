@@ -1,0 +1,7 @@
+struct tree_branch
+{
+    void* data;
+    char type;
+    tree_branch** next;
+    int kids;
+};

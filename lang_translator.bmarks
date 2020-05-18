@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<BrowseTracker_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="algebra.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="4648" topLine="81" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="144,163" />
+	</File>
+	<File name="mti.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="5624" topLine="104" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="stringsort.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="4139" topLine="58" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="prog_to_asm.cpp" open="1" top="1" tabpos="0">
+		<Cursor position="0" topLine="0" />
+		<BrowseMarks positions="0,866,885,887" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="cpu_commands.h" open="1" top="0" tabpos="13">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="code_parcer.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+		<BrowseMarks positions="3194" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="stack.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="parcer.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="21806" topLine="0" />
+		<BrowseMarks positions="21502,24891" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="matan.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="1321" topLine="19" />
+		<BrowseMarks positions="1185" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="derrivate_of_operators.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="702" topLine="0" />
+		<BrowseMarks positions="3760" />
+		<Book_Marks positions="3501,3511" />
+	</File>
+	<File name="differentiator.h" open="1" top="0" tabpos="5">
+		<Cursor position="1043" topLine="27" />
+	</File>
+	<File name="musthave_include.h" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="stringsort.h" open="1" top="0" tabpos="8">
+		<Cursor position="261" topLine="0" />
+	</File>
+	<File name="asm.h" open="1" top="0" tabpos="11">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="enum_commands.h" open="1" top="0" tabpos="14">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="stack.h" open="1" top="0" tabpos="15">
+		<Cursor position="586" topLine="4" />
+	</File>
+	<File name="header.h" open="1" top="0" tabpos="2">
+		<Cursor position="231" topLine="0" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="asm.cpp" open="1" top="0" tabpos="16">
+		<Cursor position="15687" topLine="27" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="cpu.h" open="1" top="0" tabpos="12">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="132" topLine="0" />
+		<BrowseMarks positions="132" />
+		<Book_Marks positions="6227,6232" />
+	</File>
+</BrowseTracker_layout_file>

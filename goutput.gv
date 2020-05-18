@@ -1,0 +1,21 @@
+digraph First{
+node [fontname="Lobster", shape="Mrecord", style="filled", fillcolor="lightblue"];"boxb76428" [label="+"];
+"box4ca384" [label="hT·"];
+"boxb76428" -> "box4ca384"[label="", color="green"];
+"boxb76b50" [label="+"];
+"boxb76428" -> "boxb76b50"[label="", color="green"];
+"boxb76da8" [label="*"];
+"boxb76b50" -> "boxb76da8"[label="", color="green"];
+"boxb76c28" [label="1.00"];
+"boxb76da8" -> "boxb76c28"[label="", color="green"];
+"boxb76b38" [label="5.00"];
+"boxb76da8" -> "boxb76b38"[label="", color="green"];
+"boxb76cb8" [label="*"];
+"boxb76b50" -> "boxb76cb8"[label="", color="green"];
+"boxb76dd8" [label="x"];
+"boxb76cb8" -> "boxb76dd8"[label="", color="green"];
+"boxb76560" [label="0.00"];
+"boxb76cb8" -> "boxb76560"[label="", color="green"];
+"boxb76ee0" [label="0.00"];
+"boxb76428" -> "boxb76ee0"[label="", color="green"];
+}

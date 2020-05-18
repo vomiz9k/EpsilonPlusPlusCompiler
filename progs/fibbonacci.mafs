@@ -1,0 +1,18 @@
+fib: x → ℝ
+{
+	(x <= 1) ⇒ 
+		→ 1;
+	⊥ ⇒
+		→ fib(x - 1) + fib(x - 2);
+}
+
+
+∀ε>0
+{
+	∃x
+	"FIBBONACCI NUMBER: " → console
+	console → x
+	∃y = fib(x)
+	"RESULT: " → console
+	y → console
+}
