@@ -5,8 +5,6 @@
 #define AFTER_ZERO_ACCURACY "%0.2lf"
 
 
-
-
 struct tree_function
 {
     char name[10];

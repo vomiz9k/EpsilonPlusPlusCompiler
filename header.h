@@ -1,5 +1,4 @@
 //#include "stringsort.h"
-
 struct tree_branch
 {
     void* data;

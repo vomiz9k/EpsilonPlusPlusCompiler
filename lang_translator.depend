@@ -3,6 +3,8 @@
 	"musthave_include.h"
 	"header.h"
 
+1589734617 
+
 1576701534 source:c:\users\kiril\documents\c\lang_translator\stringsort.cpp
 	<assert.h>
 	<cstring>
@@ -15,10 +17,14 @@
 	<fcntl.h>
 	"stringsort.h"
 
+1580681252 t.h"
+
 1576439637 c:\users\kiril\documents\c\lang_translator\stringsort.h
 
 1576697801 c:\users\kiril\documents\c\lang_translator\header.h
 	"differentiator.h"
+
+1580681249 iator.h"
 
 1576700957 source:c:\users\kiril\documents\c\lang_translator\algebra.cpp
 	"musthave_include.h"
@@ -51,6 +57,8 @@
 	"cpu_commands.h"
 	"cpu_commands.h"
 
+1580681247 nds.h"
+
 1576528904 c:\users\kiril\documents\c\lang_translator\cpu\musthave_include.h
 	<assert.h>
 	<cstring>
@@ -64,6 +72,8 @@
 	"cpu.h"
 	"asm.h"
 	<windows.h>
+
+1580681251 >
 
 1576528104 c:\users\kiril\documents\c\lang_translator\cpu\stack.h
 
@@ -84,6 +94,8 @@
 
 1572346377 source:c:\users\kiril\documents\c\lang_translator\cpu\stack.cpp
 	"musthave_include.h"
+
+1580681251 include.h"
 
 1576528197 c:\users\kiril\documents\c\lang_translator\cpu\\musthave_include.h
 	<assert.h>
@@ -238,4 +250,84 @@
 1589734617 source:c:\users\b0y\documents\got\c\lang_translator\prog_to_asm.cpp
 	"musthave_include.h"
 	"header.h"
+
+1580699246 source:/home/ayeshnique/Desktop/c/lang_translator/algebra.cpp
+	"musthave_include.h"
+	"header.h"
+
+1580699252 /home/ayeshnique/Desktop/c/lang_translator/musthave_include.h
+	<assert.h>
+	<cstring>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"stack.h"
+	"stringsort.h"
+	"enum_commands.h"
+	"cpu.h"
+	"asm.h"
+	<windows.h>
+
+1580699252 /home/ayeshnique/Desktop/c/lang_translator/stack.h
+
+1580699252 /home/ayeshnique/Desktop/c/lang_translator/stringsort.h
+
+1580699248 /home/ayeshnique/Desktop/c/lang_translator/enum_commands.h
+	"cpu_commands.h"
+
+1580699248 /home/ayeshnique/Desktop/c/lang_translator/cpu_commands.h
+
+1580699248 /home/ayeshnique/Desktop/c/lang_translator/cpu.h
+
+1580699246 /home/ayeshnique/Desktop/c/lang_translator/asm.h
+
+1580699250 /home/ayeshnique/Desktop/c/lang_translator/header.h
+	"differentiator.h"
+
+1580699248 /home/ayeshnique/Desktop/c/lang_translator/differentiator.h
+
+1580699246 source:/home/ayeshnique/Desktop/c/lang_translator/asm.cpp
+	"musthave_include.h"
+	"cpu_commands.h"
+	"cpu_commands.h"
+
+1580699248 source:/home/ayeshnique/Desktop/c/lang_translator/cpu.cpp
+	"musthave_include.h"
+	"cpu_commands.h"
+
+1580699248 source:/home/ayeshnique/Desktop/c/lang_translator/derrivate_of_operators.cpp
+	"musthave_include.h"
+	"header.h"
+
+1580699250 source:/home/ayeshnique/Desktop/c/lang_translator/main.cpp
+	"musthave_include.h"
+	"header.h"
+
+1580699250 source:/home/ayeshnique/Desktop/c/lang_translator/matan.cpp
+	"musthave_include.h"
+	"header.h"
+
+1580699250 source:/home/ayeshnique/Desktop/c/lang_translator/mti.cpp
+	"musthave_include.h"
+	"header.h"
+
+1580699252 source:/home/ayeshnique/Desktop/c/lang_translator/parcer.cpp
+	"musthave_include.h"
+	"header.h"
+
+1580699252 source:/home/ayeshnique/Desktop/c/lang_translator/stack.cpp
+	"musthave_include.h"
+
+1580699252 source:/home/ayeshnique/Desktop/c/lang_translator/stringsort.cpp
+	<assert.h>
+	<cstring>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	<io.h>
+	<fcntl.h>
+	"stringsort.h"
 

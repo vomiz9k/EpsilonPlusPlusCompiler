@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1580699246 source:/home/ayeshnique/Desktop/c/language/algebra.cpp
+	"musthave_include.h"
+	"header.h"
+
+1589749722 /home/ayeshnique/Desktop/c/language/musthave_include.h
+	<assert.h>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"stack.h"
+	"stringsort.h"
+	"enum_commands.h"
+	"cpu.h"
+	"asm.h"
+
+1589749886 /home/ayeshnique/Desktop/c/language/stack.h
+
+1589749901 /home/ayeshnique/Desktop/c/language/stringsort.h
+
+1589749851 /home/ayeshnique/Desktop/c/language/enum_commands.h
+	"cpu_commands.h"
+
+1589749818 /home/ayeshnique/Desktop/c/language/cpu_commands.h
+
+1589749793 /home/ayeshnique/Desktop/c/language/cpu.h
+
+1589749777 /home/ayeshnique/Desktop/c/language/asm.h
+
+1589749866 /home/ayeshnique/Desktop/c/language/header.h
+	"differentiator.h"
+
+1589749836 /home/ayeshnique/Desktop/c/language/differentiator.h
+
+1580699246 source:/home/ayeshnique/Desktop/c/language/asm.cpp
+	"musthave_include.h"
+	"cpu_commands.h"
+	"cpu_commands.h"
+
+1580699246 source:/home/ayeshnique/Desktop/c/language/code_parcer.cpp
+	"musthave_include.h"
+	"header.h"
+
+1580699248 source:/home/ayeshnique/Desktop/c/language/cpu.cpp
+	"musthave_include.h"
+	"cpu_commands.h"
+
+1580699248 source:/home/ayeshnique/Desktop/c/language/derrivate_of_operators.cpp
+	"musthave_include.h"
+	"header.h"
+
+1589747929 source:/home/ayeshnique/Desktop/c/language/main.cpp
+	"musthave_include.h"
+	"header.h"
+
+1580699250 source:/home/ayeshnique/Desktop/c/language/matan.cpp
+	"musthave_include.h"
+	"header.h"
+
+1580699250 source:/home/ayeshnique/Desktop/c/language/mti.cpp
+	"musthave_include.h"
+	"header.h"
+
+1589748618 source:/home/ayeshnique/Desktop/c/language/parcer.cpp
+	"musthave_include.h"
+	"header.h"
+
+1589748676 source:/home/ayeshnique/Desktop/c/language/stack.cpp
+	"musthave_include.h"
+
+1589750024 source:/home/ayeshnique/Desktop/c/language/stringsort.cpp
+	<assert.h>
+	<cstring>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<fcntl.h>
+	"stringsort.h"
+
+1589748925 source:/home/ayeshnique/Desktop/c/language/prog_to_asm.cpp
+	"musthave_include.h"
+	"header.h"
+
